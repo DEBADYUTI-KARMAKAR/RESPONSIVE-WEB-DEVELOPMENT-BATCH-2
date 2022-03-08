@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>List</title>
+   </head>
+   <body>
+      UL
+      <ul>
+         <li>Sourav</li>
+         <li>Dhoni</li>
+         <li>Rahul</li>
+      </ul>
+      <ul>
+         <li>first item</li>
+         <li>
+            second item
+            <!-- Look, the closing </li> tag is not placed here! -->
+            <ul>
+               <li>second item first subitem</li>
+               <li>
+                  second item second subitem
+                  <!-- Same for the second nested unordered list! -->
+                  <ul>
+                     <li>second item second subitem first sub-subitem</li>
+                     <li>second item second subitem second sub-subitem</li>
+                     <li>second item second subitem third sub-subitem</li>
+                  </ul>
+               </li>
+               <!-- Closing </li> tag for the li that
+                  contains the third unordered list -->
+               <li>second item third subitem</li>
+            </ul>
+            <!-- Here is the closing </li> tag -->
+         </li>
+         <li>third item</li>
+      </ul>
+      OL
+      <ol type="i">
+         <li>Sourav</li>
+         <li>Ratul</li>
+      </ol>
+      <dl>
+         <dt>Footballer</dt>
+         <dd>Sunil</dd>
+         <dd>Udanta</dd>
+         <dd>Hira</dd>
+         <dd>Pritam</dd>
+         <dt>cricketer</dt>
+         <dd>sourav</dd>
+         <dd>Viru</dd>
+         <dd>Sachin</dd>
+         <dd>Laxman</dd>
+      </dl>
+      <dl>
+         <dt>Name</dt>
+         <dd>Godzilla</dd>
+         <dt>Born</dt>
+         <dd>1952</dd>
+         <dt>Birthplace</dt>
+         <dd>Japan</dd>
+         <dt>Color</dt>
+         <dd>Green</dd>
+      </dl>
+      <dl>
+         <dt>Firefox</dt>
+         <dd>
+            A free, open source, cross-platform,
+            graphical web browser developed by the
+            Mozilla Corporation and hundreds of
+            volunteers.
+         </dd>
+         <dd>
+            The Red Panda also known as the Lesser
+            Panda, Wah, Bear Cat or Firefox, is a
+            mostly herbivorous mammal, slightly larger
+            than a domestic cat (60 cm long).
+         </dd>
+         <!-- Other terms and descriptions -->
+      </dl>
+   </body>
+</html>
