@@ -1,0 +1,51 @@
+p{
+    /*type selector*/
+    color: chocolate;
+}
+a{
+    color: rgb(226, 162, 43);
+}
+.l{
+    /*class selector*/
+    color: orange;
+    font-weight: bold;
+}
+span.l{
+
+    color: blue;
+}
+li em {
+    /*Descendant combinator*/
+    color: purple;
+}
+
+h1 + p{
+    /*Adjacent sibling combinator */
+    font-size: 152%;
+    color: rgb(245, 4, 44);
+    font-weight: bolder;
+}
+
+a:hover{
+    /*pseudo-class selector*/
+    color: green;
+    text-decoration: overline;
+}
+
+body h1+p .l{
+    color: violet;
+    background-color: black;
+}
+li[class="g"]{
+    /*Attribute selector*/
+    font-size: larger;
+}
+li[class~="l"]{
+    /*General sibling combinator*/
+    background-color: black;
+}
+
+p::first-letter{
+    /*pseudo-elements selector+*/
+    color: blue;
+}
