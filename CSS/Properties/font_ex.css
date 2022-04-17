@@ -1,0 +1,20 @@
+h1{
+    font-size: 60px;
+    font-family: 'Square Peg', cursive;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    text-decoration:overline;
+    text-shadow: 1px 1px 6px brown;
+
+}
+.h{
+    text-transform: uppercase;
+    line-height: 5;
+
+}
+.g{
+    text-indent: 20%;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}

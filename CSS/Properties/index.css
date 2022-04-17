@@ -1,0 +1,22 @@
+/*p{
+    background-color: cornflowerblue;
+}
+html{
+    background-image: url('g.png');
+    height: 100px;
+    width: 1px;
+}*/
+h1{
+    color: blueviolet;
+    background-color: aqua;
+    position: fixed;
+}
+.back{
+    background-image: url('g.png');
+    height: 1000px;
+    width: 10000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400px;
+    background-position:  center;
+}
