@@ -1,0 +1,90 @@
+div{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    background-color: pink;
+    width: 100px;
+    padding-left: 100px ;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    margin: 8px;
+}
+/*
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+*/
+#one{
+    background-color: #e90b12;
+    border-width: 10px ;
+    border-color: rgb(186, 252, 6) ;
+    border-style: groove ;
+    box-sizing: border-box;
+    margin: 8px;
+}
+#two{
+    background-color: rgb(111, 237, 100);    
+    border-width: 10px ;
+    border-color: rgb(133, 14, 14) ;
+    border-style: dotted ;
+    box-sizing: border-box;
+    margin:8px;
+
+    /*margin-left: 500px;*/
+}
+
+#three{
+
+    background-color: cadetblue;
+    border-width: 10px ;
+    border-color: rgb(218, 12, 12) ;
+    border-style: dashed ;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 8px;
+
+}
+#four{
+    
+    background-color: #440cdd;
+    border:10px solid black ;
+
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    margin: 8px;
+    margin-left: 500px;
+}
+
+button{
+    border-top: 50px;
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+    margin: 8px;
+}
+.e{
+   display: inline-block;
+ 
+}
+img{
+    width: 90px;
+    height: 100px;
+}
+.ak{
+    float: left;
+    width: 30%;
+    padding: 11px;
+}
