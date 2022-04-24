@@ -1,0 +1,12 @@
+.round{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    transition: width 5s, height 5s,border-radius 10s;
+}
+
+.round:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

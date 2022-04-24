@@ -1,0 +1,29 @@
+a{
+    animation: bouncing 0.5s ease 0s infinite alternate both;
+    background: darkcyan;
+    border-radius: 50%;
+    display: inline-block;
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 1em 2em 1.1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 100px;
+
+}
+
+@keyframes bouncing{
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px black;
+    }
+    100%{
+        bottom: 50px;
+        box-shadow: 0 50px 50px rgb(46, 39, 53);
+    }
+}
