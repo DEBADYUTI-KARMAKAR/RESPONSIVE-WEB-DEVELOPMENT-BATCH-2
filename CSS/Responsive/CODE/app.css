@@ -1,0 +1,15 @@
+
+html{
+    font-size: 2em;
+}
+@media screen and (max-width: 600px) and (max-height:300px)
+{
+    body{
+        color: rgb(255, 7, 7);
+    }
+}
+@media (any-hover: hover) {
+    p:hover {
+      background: yellow;
+    }
+  }

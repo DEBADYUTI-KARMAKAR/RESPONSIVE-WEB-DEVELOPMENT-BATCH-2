@@ -10,13 +10,16 @@ h1{
     color: blueviolet;
     background-color: aqua;
     position: fixed;
+    margin: 100rm;
+    padding: 100rm;
+
 }
 .back{
     background-image: url('g.png');
-    height: 1000px;
-    width: 10000px;
+    height: 100em;
+    width: 100em;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 400px;
+    background-size: 100%;
     background-position:  center;
 }
