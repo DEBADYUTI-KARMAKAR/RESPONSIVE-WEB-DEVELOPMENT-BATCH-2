@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    
+    <title>Document</title>
+    <script src="app\lib\angular.min.js"></script>
+</head>
+<body ng-init="name=['Ram','Sham','Deb']">
+    <ul>
+        <!---<li>{{name[0]}}</li>
+        <li>{{name[1]}}</li>
+        <li>{{ name[2]}}</li>--->
+        <li ng-repeat="names in name">{{names}}</li>
+    </ul>
+</body>
+</html>
