@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    
+    <title>Filter</title>
+    <script src="app\lib\angular.min.js"></script>
+    <script src="app\app.js"></script>
+</head>
+<body>
+    <div ng-controller="myappcontroller">
+        <input type="text" ng-model="s" >
+        <ul>
+            <li ng-repeat="institutes in institute | orderBy:'name' | filter:s ">
+                {{institutes.name +" "+ institutes.course | uppercase}} - {{institutes.fees | currency}}
+            </li>
+            
+        </ul>
+    </div>
+</body>
+</html>
