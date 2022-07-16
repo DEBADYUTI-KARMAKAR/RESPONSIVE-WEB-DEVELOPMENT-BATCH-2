@@ -1,0 +1,25 @@
+<div class="content">
+
+    
+        <button ng-click="order = 'name'">Order By Name</button>
+        <button ng-click="order = 'course'">Order By Course</button>
+        <input type="text" ng-model="s" placeholder="search students" >
+        <ul id="students-list">
+            <li ng-repeat="institutes in institute | orderBy: order | filter:s" ng-show="institutes.available"><!--nh-hide also availevel-->
+                <img ng-src="{{institutes.pic}}" style="margin: -12px 10px 0 0; float: left; width: 50px;"
+                ng-show="institutes.pic"/>
+                <h3>{{institutes.name +"-> "+institutes.course | uppercase}} </h3>
+                <div class="remove" ng-click="removedata(institutes)">X</div>
+                <span > {{institutes.fees | currency}} </span>
+            </li>
+            
+        </ul>
+        <form  ng-submit="addStudent()">
+            <input type="text" placeholder="name" ng-model="student.name">
+            <input type="text" placeholder="course" ng-model="student.course">
+            <input type="text" placeholder="fees" ng-model="student.fees">
+            <input type="submit" value="Add New Student">
+        </form>
+        <a href="" ng-click="removeAll()">Remove All students</a>
+    
+</div>
