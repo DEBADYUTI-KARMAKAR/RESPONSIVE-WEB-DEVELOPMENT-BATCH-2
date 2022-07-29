@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+
+
+
+<button>Start Animation</button>
+
+<div></div>
+
+</body>
+<script> 
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("div").animate({
+          left:'200px',
+          height:'80px',
+          width:'80px',
+
+        });
+      });
+    });
+    </script> 
+</html>

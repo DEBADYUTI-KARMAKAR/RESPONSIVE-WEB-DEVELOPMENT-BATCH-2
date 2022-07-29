@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/JS/jquery-3.6.0.min.js"></script>
+
+<style> 
+#p, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #fb0000;
+  border: solid 1px #f6ea03;
+}
+
+#p {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click </div>
+<div id="p">JS</div>
+
+</body>
+<script> 
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#p").slideToggle();
+    });
+  });
+  </script>
+</html>
